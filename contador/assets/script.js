@@ -5,12 +5,12 @@ var currentNumber = 0;
 
 //Quando for clicado, vai adicionar 1 no span
 function inclement() {
-    currentNumber = currentNumber + 1;
+    currentNumber++;
     curretNumberWrapper.innerHTML = currentNumber;
 }
 
 //Quando for clicado, vai subtrair 1 no span
 function decrement() {
-    currentNumber = currentNumber - 1;
+    currentNumber--;
     curretNumberWrapper.innerHTML = currentNumber;
 }
